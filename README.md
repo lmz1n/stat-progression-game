@@ -1,2 +1,2 @@
 # stat-progression-game
-A Java-based character progression simulator that allows users to manage stats, gain experience, level up, and track character growth.
+A Java-based console application that allows users to create characters and simulate stat-based progression and leveling systems, utilizing data structures to efficiently manage character data and progression mechanics.
