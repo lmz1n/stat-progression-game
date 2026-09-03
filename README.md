@@ -2,14 +2,14 @@
 A Java-based progression game inspired by the social stat system in Persona 5. The program allows users to track real-life activities and translate them into character progression across multiple stats.
 
 # Features
-Create characters with a custom progression period measured in days.
-Track up to three activities per day.
-Gain progression in up to two stats from each activity.
-Answer daily health questions about sleep and nutrition.
-Track seven different character stats.
-Level up both the overall character and individual stats.
-Use a balancing system that rewards underdeveloped stats.
-Save active and previous characters using a text file.
+- Create characters with a custom progression period measured in days.
+- Track up to three activities per day.
+- Gain progression in up to two stats from each activity.
+- Answer daily health questions about sleep and nutrition.
+- Track seven different character stats.
+- Level up both the overall character and individual stats.
+- Use a balancing system that rewards underdeveloped stats.
+- Save active and previous characters using a text file.
 
 # Stats
 The game tracks seven stats:
@@ -68,22 +68,41 @@ Individual stat progression is based on a separate Count system, while overall c
 Game.java
 
 - Contains the main method.
-Manages the active character.
-Stores previous characters using an ArrayList.
+- Manages the active character.
+- Stores previous characters using an ArrayList.
 
 Character.java
 
-Represents a character.
-Stores stats using a HashMap<String, Stat>.
-Handles overall EXP progression.
-Uses LocalDate to manage progression dates.
+- Represents a character.
+- Stores stats using a HashMap<String, Stat>.
+- Handles overall EXP progression.
+ Uses LocalDate to manage progression dates.
 
 Stat.java
 
-Stores stat information.
-Handles individual stat progression and levels.
+- Stores stat information.
+- Handles individual stat progression and levels.
 
 Save.txt
 
-Stores character data and game state between program executions.
+- Stores character data and game state between program executions.
+
+# Technologies Used
+- Java
+- Object-Oriented Programming
+- ArrayList
+- HashMap
+- LocalDate
+- File I/O
+
+# Testing
+The project was tested by checking scenarios such as:
+
+- Creating characters with short and long progression periods.
+- Modifying saved dates to test daily activity resets.
+- Changing character start dates to test completed characters.
+- Testing modifications to the save file while preserving its structure.
+
+# Known Limitations
+This project was developed during a limited timeframe and may still contain bugs or untested edge cases. The program was designed to handle most invalid user input, although there are limitations involving names or strings containing spaces.
 
