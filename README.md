@@ -50,15 +50,6 @@ This encourages balanced development instead of repeatedly improving only one st
 # Stat Levels
 Each stat has five progression levels and corresponding titles.
 
-*Stat*	     *Level 1*	*Level 2*	   *Level 3*	  *Level 4*	     *Level 5*
-Knowledge	    Ignorant	 Informed	    Educated	   Insightful	    Erudite
-Skills	      Untrained	 Practiced	  Capable	     Proficient	    Masterful
-Kindness	    Selfish	   Considerate  Caring	     Compassionate	Altruistic
-Guts	        Fearful	   Hesitant	    Brave	       Daring       	Fearless
-Charm	        Awkward	   Pleasant	    Likable	     Charismatic	  Magnetic
-Wealth	      Broke	     Stable	      Comfortable	 Prosperous	    Affluent
-Health	      Unhealthy	 Recovering	  Stable	     Fit	          Peak
-
 | Stat      | Level 1   | Level 2     | Level 3     | Level 4       | Level 5    |
 | --------- | --------- | ----------- | ----------- | ------------- | ---------- |
 | Knowledge | Ignorant  | Informed    | Educated    | Insightful    | Erudite    |
@@ -72,16 +63,27 @@ Health	      Unhealthy	 Recovering	  Stable	     Fit	          Peak
 
 Individual stat progression is based on a separate Count system, while overall character progression uses EXP. These systems operate independently.
 
-# Project Structure
+# Classes
 
-Stat-Progression-Game/
-│
-├── src/
-│   ├── Game.java
-│   ├── Character.java
-│   └── Stat.java
-│
-├── Save.txt
-│
-└── README.md
+Game.java
+
+- Contains the main method.
+Manages the active character.
+Stores previous characters using an ArrayList.
+
+Character.java
+
+Represents a character.
+Stores stats using a HashMap<String, Stat>.
+Handles overall EXP progression.
+Uses LocalDate to manage progression dates.
+
+Stat.java
+
+Stores stat information.
+Handles individual stat progression and levels.
+
+Save.txt
+
+Stores character data and game state between program executions.
 
