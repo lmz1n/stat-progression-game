@@ -59,6 +59,17 @@ Charm	        Awkward	   Pleasant	    Likable	     Charismatic	  Magnetic
 Wealth	      Broke	     Stable	      Comfortable	 Prosperous	    Affluent
 Health	      Unhealthy	 Recovering	  Stable	     Fit	          Peak
 
+| Stat      | Level 1   | Level 2     | Level 3     | Level 4       | Level 5    |
+| --------- | --------- | ----------- | ----------- | ------------- | ---------- |
+| Knowledge | Ignorant  | Informed    | Educated    | Insightful    | Erudite    |
+| Skills    | Untrained | Practiced   | Capable     | Proficient    | Masterful  |
+| Kindness  | Selfish   | Considerate | Caring      | Compassionate | Altruistic |
+| Guts      | Fearful   | Hesitant    | Brave       | Daring        | Fearless   |
+| Charm     | Awkward   | Pleasant    | Likable     | Charismatic   | Magnetic   |
+| Wealth    | Broke     | Stable      | Comfortable | Prosperous    | Affluent   |
+| Health    | Unhealthy | Recovering  | Stable      | Fit           | Peak       |
+
+
 Individual stat progression is based on a separate Count system, while overall character progression uses EXP. These systems operate independently.
 
 # Project Structure
