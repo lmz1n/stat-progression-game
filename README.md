@@ -24,9 +24,9 @@ The game tracks seven stats:
 
 Activities can improve up to two stats. For example:
 
-Workout → Health +1, Guts +1
-Job → Wealth +1, Skills +1
-Date → Charm +1
+- Workout → Health +1, Guts +1
+- Job → Wealth +1, Skills +1
+- Date → Charm +1
 
 The game also asks the player whether they slept well and ate well, with affirmative answers providing additional Health progression.
 
@@ -52,13 +52,13 @@ Each stat has five progression levels and corresponding titles.
 
 | Stat      | Level 1   | Level 2     | Level 3     | Level 4       | Level 5    |
 | --------- | --------- | ----------- | ----------- | ------------- | ---------- |
-| Knowledge | Ignorant  | Informed    | Educated    | Insightful    | Erudite    |
-| Skills    | Untrained | Practiced   | Capable     | Proficient    | Masterful  |
-| Kindness  | Selfish   | Considerate | Caring      | Compassionate | Altruistic |
-| Guts      | Fearful   | Hesitant    | Brave       | Daring        | Fearless   |
-| Charm     | Awkward   | Pleasant    | Likable     | Charismatic   | Magnetic   |
-| Wealth    | Broke     | Stable      | Comfortable | Prosperous    | Affluent   |
-| Health    | Unhealthy | Recovering  | Stable      | Fit           | Peak       |
+| **Knowledge** | Ignorant  | Informed    | Educated    | Insightful    | Erudite    |
+| **Skills**    | Untrained | Practiced   | Capable     | Proficient    | Masterful  |
+| **Kindness**  | Selfish   | Considerate | Caring      | Compassionate | Altruistic |
+| **Guts**      | Fearful   | Hesitant    | Brave       | Daring        | Fearless   |
+| **Charm**     | Awkward   | Pleasant    | Likable     | Charismatic   | Magnetic   |
+| **Wealth**    | Broke     | Stable      | Comfortable | Prosperous    | Affluent   |
+| **Health**    | Unhealthy | Recovering  | Stable      | Fit           | Peak       |
 
 
 Individual stat progression is based on a separate Count system, while overall character progression uses EXP. These systems operate independently.
@@ -76,7 +76,7 @@ Character.java
 - Represents a character.
 - Stores stats using a HashMap<String, Stat>.
 - Handles overall EXP progression.
- Uses LocalDate to manage progression dates.
+- Uses LocalDate to manage progression dates.
 
 Stat.java
 
