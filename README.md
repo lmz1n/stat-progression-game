@@ -1,4 +1,4 @@
-# stat-progression-game
+# Stat Progression Game
 A Java-based progression game inspired by the social stat system in Persona 5. The program allows users to track real-life activities and translate them into character progression across multiple stats.
 
 # Features
